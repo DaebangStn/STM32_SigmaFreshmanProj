@@ -1,7 +1,7 @@
 [PreviousGenFiles]
-HeaderPath=C:/Users/gunho/Desktop/Sigma_FreshmanProj-CodeMerge1/Sigma_FreshmanProj-CodeMerge1/robotARMcontrol_withJava/Inc
+HeaderPath=C:/Users/gunho/Desktop/robotARMcontrol_withJava/Inc
 HeaderFiles=stm32f4xx_it.h;stm32f4xx_hal_conf.h;main.h;
-SourcePath=C:/Users/gunho/Desktop/Sigma_FreshmanProj-CodeMerge1/Sigma_FreshmanProj-CodeMerge1/robotARMcontrol_withJava/Src
+SourcePath=C:/Users/gunho/Desktop/robotARMcontrol_withJava/Src
 SourceFiles=stm32f4xx_it.h;stm32f4xx_hal_conf.h;main.h;stm32f4xx_it.c;stm32f4xx_hal_msp.c;main.c;
 
 [PreviousLibFiles]

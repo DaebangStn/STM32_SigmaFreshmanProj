@@ -129,6 +129,7 @@
             <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c</file>
             <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c</file>
             <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c</file>
+            <file>$PROJ_DIR$\..\..\Sigma_FreshmanProj-CodeMerge1\Sigma_FreshmanProj-CodeMerge1\robotARMcontrol_withJava\Src\main.c</file>
         </outputs>
         <file>
             <name>$PROJ_DIR$\robotARMcontrol_withJava\Exe\robotARMcontrol_withJava.out</name>
@@ -530,10 +531,6 @@
                 <tool>
                     <name>ICCARM</name>
                     <file> 76 56 71 32 90 58 65 21 27 19 50 11 37 59 39 44 25 15 62 75 97 45 108 6 43 78 46 91 3 60 29 23 49 7 1 30 63</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 7 71 19 58 50 75 44 32 97 23 56 39 59 90 65 27 11 6 30 76 37 25 15 62 43 46 3 60 49 1 63 45 108 78 91 29</file>
                 </tool>
             </inputs>
         </file>
