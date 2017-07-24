@@ -57,7 +57,7 @@ Motor_DataTypeDef Motor;
 int TIM2_intOccured = 0;
 int TIM5_intOccured = 0;
 /* Private variables ---------------------------------------------------------*/
-float angle_init[] = {0, 1.1,90.0,3.3,4.4,5.5,6.6,7.7};
+float angle_init[] = {0, 0, 0, 0,0,0,0,0};
 float max_angular_speed[] = {0, 20, 60, 20, 60, 60, 60, 60};
 float max_compare_difference[9];
 /* USER CODE END PV */
