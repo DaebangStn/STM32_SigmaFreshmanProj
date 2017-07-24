@@ -57,7 +57,9 @@ Motor_DataTypeDef Motor;
 int TIM2_intOccured = 0;
 int TIM5_intOccured = 0;
 /* Private variables ---------------------------------------------------------*/
-float angle_init[] = {0, 1.1,2.2,3.3,4.4,5.5,6.6,7.7};
+float angle_init[] = {0, 1.1,90.0,3.3,4.4,5.5,6.6,7.7};
+float max_angular_speed[] = {0, 20, 60, 20, 60, 60, 60, 60};
+float max_compare_difference[9];
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -268,7 +270,7 @@ static void MX_TIM3_Init(void)
   TIM_OC_InitTypeDef sConfigOC;
 
   htim3.Instance = TIM3;
-  htim3.Init.Prescaler = 8399;
+  htim3.Init.Prescaler = 41999;
   htim3.Init.CounterMode = TIM_COUNTERMODE_UP;
   htim3.Init.Period = 99;
   htim3.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
@@ -548,6 +550,10 @@ void stateInit(){
 	}	
 	__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 50);
 	HAL_GPIO_WritePin(LD6_GPIO_Port, LD6_Pin, GPIO_PIN_RESET);
+
+	for(int i=1; i<7; i++){
+		max_compare_difference[i]=56.0/9.0*max_angular_speed[i];
+	}
 	
 	State.isControlled = 0;
 	State.isTurnOn = 0;
@@ -575,10 +581,10 @@ float floatConvert(uint8_t* usartRXBuf) {
 
 void StepperSet(){
 	float angleDesired = State.angle[2];
-	if(angleDesired > 180.0) {
-		angleDesired = 180.0;
-	}else if(angleDesired < 0.0) {
-		angleDesired = 0.0;
+	if(angleDesired > 90.0) {
+		angleDesired = 90.0;
+	}else if(angleDesired < -90.0) {
+		angleDesired = -90.0;
 	}
 	Motor.stepDesired = (int) angleDesired/0.18;
 	if(!Motor.pwmflag){
@@ -599,13 +605,21 @@ void StepperSet(){
 void compareSet(){
 	for(int i=1;i<=7;i++){
 		if(i!=2){
-			Motor.compare[i] = (int)((2700.0*State.angle[i]/27.0) + 63000.0);
-		}else{
-			StepperSet();
+			float compareTemp = (int)((8400.0*State.angle[i]/27.0) + 63000.0); 
+			if(((compareTemp > Motor.compare[i])&&(compareTemp - Motor.compare[i]<20))||((compareTemp < Motor.compare[i])&&(Motor.compare[i] - compareTemp<20))){
+				Motor.compare[i] = compareTemp;
+			}else{
+				if(compareTemp > Motor.compare[i]){
+					Motor.compare[i]=Motor.compare[i]+max_compare_difference[i];
+				}else{
+					Motor.compare[i]=Motor.compare[i]-max_compare_difference[i];
+				}
 		}
-	}
+                }else{
+         StepperSet();
+         }
+        }
 }
-
 void stateHandler(){
 	if(!State.isTurnOn) {
 		HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, GPIO_PIN_RESET);
