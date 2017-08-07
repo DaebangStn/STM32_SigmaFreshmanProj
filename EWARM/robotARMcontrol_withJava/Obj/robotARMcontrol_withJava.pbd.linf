@@ -1,5 +1,8 @@
 ﻿C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM\robotARMcontrol_withJava\Obj\robotARMcontrol_withJava.pbd
 C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM\robotARMcontrol_withJava\Obj\main.pbi
+C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM\robotARMcontrol_withJava\Obj\stm32f4xx_hal_msp.pbi
+C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM\robotARMcontrol_withJava\Obj\stm32f4xx_it.pbi
+C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM\robotARMcontrol_withJava\Obj\system_stm32f4xx.pbi
 C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM\robotARMcontrol_withJava\Obj\stm32f4xx_hal.pbi
 C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM\robotARMcontrol_withJava\Obj\stm32f4xx_hal_cortex.pbi
 C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM\robotARMcontrol_withJava\Obj\stm32f4xx_hal_dma.pbi
@@ -8,7 +11,6 @@ C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM\robotARMcontrol_withJa
 C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM\robotARMcontrol_withJava\Obj\stm32f4xx_hal_flash_ex.pbi
 C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM\robotARMcontrol_withJava\Obj\stm32f4xx_hal_flash_ramfunc.pbi
 C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM\robotARMcontrol_withJava\Obj\stm32f4xx_hal_gpio.pbi
-C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM\robotARMcontrol_withJava\Obj\stm32f4xx_hal_msp.pbi
 C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM\robotARMcontrol_withJava\Obj\stm32f4xx_hal_pwr.pbi
 C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM\robotARMcontrol_withJava\Obj\stm32f4xx_hal_pwr_ex.pbi
 C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM\robotARMcontrol_withJava\Obj\stm32f4xx_hal_rcc.pbi
@@ -16,5 +18,3 @@ C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM\robotARMcontrol_withJa
 C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM\robotARMcontrol_withJava\Obj\stm32f4xx_hal_tim.pbi
 C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM\robotARMcontrol_withJava\Obj\stm32f4xx_hal_tim_ex.pbi
 C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM\robotARMcontrol_withJava\Obj\stm32f4xx_hal_uart.pbi
-C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM\robotARMcontrol_withJava\Obj\stm32f4xx_it.pbi
-C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM\robotARMcontrol_withJava\Obj\system_stm32f4xx.pbi

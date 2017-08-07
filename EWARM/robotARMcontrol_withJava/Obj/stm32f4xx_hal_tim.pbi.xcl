@@ -1,16 +1,16 @@
-"C:\Users\gunho\Desktop\Sigma_FreshmanProj-CodeMerge1\Sigma_FreshmanProj-CodeMerge1\robotARMcontrol_withJava\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c"
+"C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c"
 -std=c11
 -ferror-limit=100
 -I
-C:\Users\gunho\Desktop\Sigma_FreshmanProj-CodeMerge1\Sigma_FreshmanProj-CodeMerge1\robotARMcontrol_withJava\EWARM/../Inc
+C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM/../Inc
 -I
-C:\Users\gunho\Desktop\Sigma_FreshmanProj-CodeMerge1\Sigma_FreshmanProj-CodeMerge1\robotARMcontrol_withJava\EWARM/../Drivers/STM32F4xx_HAL_Driver/Inc
+C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM/../Drivers/STM32F4xx_HAL_Driver/Inc
 -I
-C:\Users\gunho\Desktop\Sigma_FreshmanProj-CodeMerge1\Sigma_FreshmanProj-CodeMerge1\robotARMcontrol_withJava\EWARM/../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM/../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
 -I
-C:\Users\gunho\Desktop\Sigma_FreshmanProj-CodeMerge1\Sigma_FreshmanProj-CodeMerge1\robotARMcontrol_withJava\EWARM/../Drivers/CMSIS/Device/ST/STM32F4xx/Include
+C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM/../Drivers/CMSIS/Device/ST/STM32F4xx/Include
 -I
-C:\Users\gunho\Desktop\Sigma_FreshmanProj-CodeMerge1\Sigma_FreshmanProj-CodeMerge1\robotARMcontrol_withJava\EWARM/../Drivers/CMSIS/Include
+C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\EWARM/../Drivers/CMSIS/Include
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CMSIS\Include
 -I
@@ -18,15 +18,15 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\inc\c
 -I
-C:\Users\gunho\Desktop\Sigma_FreshmanProj-CodeMerge1\Sigma_FreshmanProj-CodeMerge1\robotARMcontrol_withJava\Inc
+C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\Inc
 -I
-C:\Users\gunho\Desktop\Sigma_FreshmanProj-CodeMerge1\Sigma_FreshmanProj-CodeMerge1\robotARMcontrol_withJava\Drivers\STM32F4xx_HAL_Driver\Inc
+C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\Drivers\STM32F4xx_HAL_Driver\Inc
 -I
-C:\Users\gunho\Desktop\Sigma_FreshmanProj-CodeMerge1\Sigma_FreshmanProj-CodeMerge1\robotARMcontrol_withJava\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy
+C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy
 -I
-C:\Users\gunho\Desktop\Sigma_FreshmanProj-CodeMerge1\Sigma_FreshmanProj-CodeMerge1\robotARMcontrol_withJava\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\Drivers\CMSIS\Device\ST\STM32F4xx\Include
 -I
-C:\Users\gunho\Desktop\Sigma_FreshmanProj-CodeMerge1\Sigma_FreshmanProj-CodeMerge1\robotARMcontrol_withJava\Drivers\CMSIS\Include
+C:\Users\gunho\Desktop\proj\STM32_SigmaFreshmanProj\Drivers\CMSIS\Include
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CMSIS\Include
 -D__CHAR_BITS__=8

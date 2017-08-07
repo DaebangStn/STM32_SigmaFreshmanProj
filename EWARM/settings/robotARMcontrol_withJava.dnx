@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <settings>
     <StLinkDriver>
-        <stlinkserialNo>67061531</stlinkserialNo>
-        <stlinkfoundProbes />
-        <stlinkResetStyle>0</stlinkResetStyle>
-        <stlinkResetStrategy>1</stlinkResetStrategy>
         <CStepIntDis>_ 0</CStepIntDis>
         <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+        <stlinkResetStyle>0</stlinkResetStyle>
+        <stlinkResetStrategy>1</stlinkResetStrategy>
+        <stlinkserialNo>67215034</stlinkserialNo>
+        <stlinkfoundProbes />
     </StLinkDriver>
     <DebugChecksum>
-        <Checksum>2196927072</Checksum>
+        <Checksum>2304753358</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>
@@ -54,6 +54,32 @@
         <ITMportsLogFile>0</ITMportsLogFile>
         <ITMlogFile>$PROJ_DIR$\ITM.log</ITMlogFile>
     </SWOTraceHWSettings>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <Aliases>
+        <Count>0</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
+    <DriverProfiling>
+        <Enabled>0</Enabled>
+        <Mode>3</Mode>
+        <Graph>0</Graph>
+        <Symbiont>0</Symbiont>
+        <Exclusions />
+    </DriverProfiling>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
     <Trace2>
         <Enabled>0</Enabled>
         <ShowSource>0</ShowSource>
@@ -99,36 +125,11 @@
         <ShowTimeSum>1</ShowTimeSum>
         <SumSortOrder>0</SumSortOrder>
     </EventLog>
-    <LogFile>
-        <LoggingEnabled>_ 0</LoggingEnabled>
-        <LogFile>_ ""</LogFile>
-        <Category>_ 0</Category>
-    </LogFile>
-    <TermIOLog>
-        <LoggingEnabled>_ 0</LoggingEnabled>
-        <LogFile>_ ""</LogFile>
-    </TermIOLog>
-    <DriverProfiling>
-        <Enabled>0</Enabled>
-        <Mode>3</Mode>
-        <Graph>0</Graph>
-        <Symbiont>0</Symbiont>
-        <Exclusions />
-    </DriverProfiling>
-    <CallStackLog>
-        <Enabled>0</Enabled>
-    </CallStackLog>
-    <CallStackStripe>
-        <ShowTiming>1</ShowTiming>
-    </CallStackStripe>
     <DisassembleMode>
         <mode>0</mode>
     </DisassembleMode>
     <Breakpoints2>
-        <Count>0</Count>
+        <Bp0>_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\Src\main.c}.577.2" 0 0 1 "" 0 "" 0</Bp0>
+        <Count>1</Count>
     </Breakpoints2>
-    <Aliases>
-        <Count>0</Count>
-        <SuppressDialog>0</SuppressDialog>
-    </Aliases>
 </settings>
