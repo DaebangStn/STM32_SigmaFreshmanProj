@@ -571,11 +571,10 @@ float floatConvert(uint8_t* usartRXBuf) {
 		uint8_t b[5];
 	}convert;
 	convert converter;
-	converter.b[0] = usartRXBuf[0]; // varying from endians
-	converter.b[1] = usartRXBuf[1];
-	converter.b[2] = usartRXBuf[2];
-	converter.b[3] = usartRXBuf[3];
-
+	converter.b[0] = usartRXBuf[3]; // varying from endians
+	converter.b[1] = usartRXBuf[2];
+	converter.b[2] = usartRXBuf[1];
+	converter.b[3] = usartRXBuf[0];
 	return converter.a;
 }
 
